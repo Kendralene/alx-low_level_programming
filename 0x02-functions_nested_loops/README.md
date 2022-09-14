@@ -1,1 +1,1 @@
-Write a function that prints the sign of a number
+There is no such thing as absolute value in this world
