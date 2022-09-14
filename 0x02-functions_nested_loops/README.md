@@ -1,1 +1,1 @@
-There is no such thing as absolute value in this world
+Write a function that prints the last digit of a number
