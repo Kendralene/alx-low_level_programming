@@ -16,12 +16,15 @@ ii = 0;
 
 while (ii < i)
 {
-_putchar(' ');									ii++;
+_putchar(' ');								
+
+ii++;
 }
 _putchar('\\');
 _putchar('\n');
 i++;
 }
+
 if (i == 0)
 _putchar('\n');
 }
