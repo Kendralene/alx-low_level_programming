@@ -6,7 +6,6 @@
  * @s: Pointer parameter
  * Return: returns an integer value
  */
-
 int _atoi(char *s)
 {
 
@@ -36,6 +35,5 @@ for (i = count - size; i < count; i++)
 j = j + ((*(s + i) - 48) * m);
 m /= 10;
 }
-
 return (j * k);
 }
