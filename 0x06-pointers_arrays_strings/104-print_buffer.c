@@ -1,4 +1,5 @@
 #include "main.h"
+
 #include <stdio.h>
 
 /**
@@ -40,7 +41,8 @@ i++;
  * @b: string to print
  * @start: starting position
  * @end: ending position
- */
+*/
+
 void printASCII(char *b, int start, int end)
 {
 int ch, i = 0;
@@ -59,6 +61,7 @@ i++;
  * @b: string
  * @size: size of buffer
  */
+
 void print_buffer(char *b, int size)
 {
 int start, end;
