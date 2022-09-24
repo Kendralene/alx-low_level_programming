@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * print_number - prints an integer
+ *print_number - prints an integer.
+ *only using the putchar function.
+ *noarrays and pointers.
+ *@n: integer to be printed.
  *
- * @num: int to print
- *
- * Return: void
+ *Return: void.
  */
 
 void print_number(int n)
 {
-
 unsigned int num;
 /*check if number is negative*/
 num = n;
