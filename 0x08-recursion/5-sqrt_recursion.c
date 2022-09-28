@@ -6,7 +6,7 @@
  *@n: interger
  *Return: evaluate sqrt
  */
- 
+
 int _evaluate(int i, int n)
 {
 /*Evaluate function*/
@@ -41,5 +41,4 @@ else
 {
 return (_evaluate(i, n)); /*Recursive call*/
 }
-
 }
