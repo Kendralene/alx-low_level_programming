@@ -1,24 +1,16 @@
 #include "main.h"
-
 /**
  *_puts - prints a string
- *@str: A pointer to an int that will be changed
+ * @str: string to print
  *
- *Return: void which means our answer is correct
+ * Description: prints a string
+ * On success: return the number of characters printed
  */
 
 void _puts(char *str)
 {
+while (*str)
+_putchar(*str++);
 
-char *c;
-
-int m;
-
-c = str;
-
-for (m = 0; c[m]; m++)
-{
-_putchar (c[m]);
-}
 _putchar('\n');
 }
