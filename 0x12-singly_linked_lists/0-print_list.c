@@ -7,7 +7,7 @@
  * Return: the number of nodes
  */
 
-size_t print_list (const list_t *h)
+size_t print_list(const list_t *h)
 {
 const list_t *cursor = h;
 size_t count = 0;
@@ -19,7 +19,7 @@ else
 printf("[0] (nil)\n");
 count += 1;
 
-cursor =cursor->next;
+cursor = cursor->next;
 }
 return (count);
 }
