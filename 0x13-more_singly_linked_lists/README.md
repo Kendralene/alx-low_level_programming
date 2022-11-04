@@ -1,0 +1,1 @@
+Advanced linked lists technique
