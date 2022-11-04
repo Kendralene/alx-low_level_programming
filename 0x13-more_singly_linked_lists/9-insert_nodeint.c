@@ -24,7 +24,7 @@ if (idx == 0)
 {
 new->next = *head;
 (*head) = new;
-return (new);	
+return (new);
 }
 current = *head;
 while (idx != 1)
@@ -35,7 +35,8 @@ current = current->next;
 if (current == NULL)
 {
 free(new);
-										return (NULL);}
+return (NULL);
+}
 }
 new->next = current->next;
 current->next = new;
